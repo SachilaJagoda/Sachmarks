@@ -1,0 +1,303 @@
+
+<div class="d-flex gap-3 align-items-center">
+    <!-- Notification Button -->
+    <button class="btn btn-light notification-btn">
+        <i class="fas fa-bell"></i>
+        <span class="notification-badge">3</span>
+    </button>
+
+    <!-- Admin Profile Box -->
+    <div class="admin-box">
+
+        <img src="admin.jpg" alt="admin-img" class="admin-image">
+
+        <div class="admin-info">
+            <span class="admin-name">Sachila Jagoda</span>
+            <span class="admin-role">Administrator</span>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+<!-- Stats Cards -->
+
+<hr>
+<div class="row g-4">
+<div class="col-md-4">
+    <div class="card stat-card purple-card">
+        <div class="card-body">
+            <h5>Total Students</h5>
+            <h2>1,256</h2>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4">
+    <div class="card stat-card bg-info text-white">
+        <div class="card-body">
+            <h5>Total Study Materials Added</h5>
+            <h2>847</h2>
+
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card stat-card bg-success text-white">
+        <div class="card-body">
+            <h5>Total Questions Added</h5>
+            <h2>3,427</h2>
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="chart-container">
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h4 class="mb-0">Top Performers This Week</h4>
+    <button class="btn btn-outline-secondary btn-sm">
+        <i class="fas fa-chart-line me-1"></i>View All Stats
+    </button>
+</div>
+
+<!-- Top Performers List -->
+<div class="performers-list">
+    <!-- First Rank -->
+    <div class="performer-card">
+        <span class="rank-badge rank-1">1</span>
+        <div class="d-flex align-items-center gap-3">
+            <div class="student-avatar">AS</div>
+            <div class="student-info">
+                <div class="student-name">Aditya Sharma</div>
+                <div class="school-details">
+                    <span class="detail-item">
+                        <i class="fas fa-school"></i>
+                        St. Xavier's High School
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        Grade 10
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-language"></i>
+                        English
+                    </span>
+                </div>
+            </div>
+            <div class="percentage">98.5%</div>
+        </div>
+    </div>
+
+    <!-- Second Rank -->
+    <div class="performer-card">
+        <span class="rank-badge rank-2">2</span>
+        <div class="d-flex align-items-center gap-3">
+            <div class="student-avatar">RP</div>
+            <div class="student-info">
+                <div class="student-name">Riya Patel</div>
+                <div class="school-details">
+                    <span class="detail-item">
+                        <i class="fas fa-school"></i>
+                        Delhi Public School
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        Grade 9
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-language"></i>
+                        Hindi
+                    </span>
+                </div>
+            </div>
+            <div class="percentage">97.2%</div>
+        </div>
+    </div>
+
+    <!-- Third Rank -->
+    <div class="performer-card">
+        <span class="rank-badge rank-3">3</span>
+        <div class="d-flex align-items-center gap-3">
+            <div class="student-avatar">MK</div>
+            <div class="student-info">
+                <div class="student-name">Mohammed Khan</div>
+                <div class="school-details">
+                    <span class="detail-item">
+                        <i class="fas fa-school"></i>
+                        Green Valley Academy
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        Grade 11
+                    </span>
+                    <span class="detail-item">
+                        <i class="fas fa-language"></i>
+                        English
+                    </span>
+                </div>
+            </div>
+            <div class="percentage">96.8%</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Charts Section -->
+<div class="chart-container">
+<div class="messages-header d-flex justify-content-between align-items-center">
+    <h4 class="mb-0">Recent Messages</h4>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-secondary btn-sm">
+            <i class="fas fa-filter me-1"></i>Filter
+        </button>
+        <button class="btn btn-purple btn-sm">
+            <i class="fas fa-envelope me-1"></i>View All
+        </button>
+    </div>
+</div>
+
+<!-- Messages List -->
+<div class="messages-list">
+    <!-- Unread Message -->
+    <div class="card message-card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <div>
+                    <span class="message-status status-unread"></span>
+                    <span class="sender-name">Sarah Johnson</span>
+                    <span class="sender-email">sarah.j@example.com</span>
+                </div>
+                <span class="message-time">2 hours ago</span>
+            </div>
+            <p class="message-preview">
+                Hello, I'm having trouble accessing the AI study notes generator. Could you please help me
+                with this issue? I've tried clearing my cache but it still doesn't seem to work properly.
+            </p>
+            <div class="d-flex gap-2">
+                <button class="btn btn-action">
+                    <i class="fas fa-reply me-1"></i>Reply
+                </button>
+                <button class="btn btn-action">
+                    <i class="fas fa-check me-1"></i>Mark as Read
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Read Message -->
+    <div class="card message-card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <div>
+                    <span class="message-status status-read"></span>
+                    <span class="sender-name">Michael Chen</span>
+                    <span class="sender-email">m.chen@example.com</span>
+                </div>
+                <span class="message-time">Yesterday</span>
+            </div>
+            <p class="message-preview">
+                Thank you for the quick response to my previous query. I have one more question regarding
+                the study materials for advanced mathematics.
+            </p>
+            <div class="d-flex gap-2">
+                <button class="btn btn-action">
+                    <i class="fas fa-reply me-1"></i>Reply
+                </button>
+                <button class="btn btn-action">
+                    <i class="fas fa-archive me-1"></i>Archive
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="chart-container">
+<div class="enrollees-header d-flex justify-content-between align-items-center">
+    <h4 class="mb-0">Recent Enrollees</h4>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-secondary btn-sm">
+            <i class="fas fa-filter me-1"></i>Filter
+        </button>
+        <button class="btn btn-purple btn-sm">
+            <i class="fas fa-users me-1"></i>View All
+        </button>
+    </div>
+</div>
+
+<!-- Enrollees List -->
+<div class="enrollees-list">
+    <!-- Enrollee Item -->
+    <div class="enrollee-card p-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <div class="student-avatar">
+                    JD
+                </div>
+                <div>
+                    <div class="student-name">James Davidson</div>
+                    <div class="school-name">
+                        <i class="fas fa-school me-1"></i>
+                        Riverside High School
+                    </div>
+                </div>
+            </div>
+            <span class="enroll-date">Today</span>
+        </div>
+    </div>
+
+    <!-- Enrollee Item -->
+    <div class="enrollee-card p-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <div class="student-avatar">
+                    AP
+                </div>
+                <div>
+                    <div class="student-name">Amelia Patterson</div>
+                    <div class="school-name">
+                        <i class="fas fa-school me-1"></i>
+                        Oakridge Academy
+                    </div>
+                </div>
+            </div>
+            <span class="enroll-date">Yesterday</span>
+        </div>
+    </div>
+
+    <!-- Enrollee Item -->
+    <div class="enrollee-card p-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <div class="student-avatar">
+                    RK
+                </div>
+                <div>
+                    <div class="student-name">Ryan Kumar</div>
+                    <div class="school-name">
+                        <i class="fas fa-school me-1"></i>
+                        St. Mary's International
+                    </div>
+                </div>
+            </div>
+            <span class="enroll-date">2 days ago</span>
+        </div>
+    </div>
